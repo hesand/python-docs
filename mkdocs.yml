@@ -1,0 +1,14 @@
+site_name: My Python Learning Journey
+site_url: https://hesand.github.io/pyhon-docs/ # Crucial for GitHub Pages
+theme:
+  name: material # Uses the Material for MkDocs theme
+  palette:
+    scheme: slate # Dark mode example
+  features:
+    - navigation.tabs # Example feature for tabs in navigation
+nav:
+  - Home: index.md
+  - Python Basics:
+    - Introduction: python_basics/introduction.md
+    - Variables: python_basics/variables.md
+  - Data Structures: data_structures.md
